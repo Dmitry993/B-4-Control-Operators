@@ -321,11 +321,10 @@ namespace Basic.Lesson_4._1
         public static void B4_P16_25_DoWhile_OddEventNumber()
         {
             int i = 1;
-            while (i < 20)
+            do
             {
                 Console.WriteLine(i++);
-                i++;
-            }
+            } while (i++ < 20);
         }
 
 
