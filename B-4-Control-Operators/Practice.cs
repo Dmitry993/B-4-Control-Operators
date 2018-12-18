@@ -309,9 +309,10 @@ namespace Basic.Lesson_4._1
         //B4-P15/25 While_OddEventNumber
         public static void B4_P15_25_While_OddEventNumber()
         {
-            for (int i = 1; i < 21; i++)
+            int i = 1;
+            while (i++ < 20)
             {
-                Console.WriteLine(++i);
+                Console.WriteLine(i++);
             }
         }
 
@@ -319,9 +320,11 @@ namespace Basic.Lesson_4._1
         //B4-P16/25 DoWhile_OddEventNumber
         public static void B4_P16_25_DoWhile_OddEventNumber()
         {
-            for (int i = 1; i < 21; i++)
+            int i = 1;
+            while (i < 20)
             {
                 Console.WriteLine(i++);
+                i++;
             }
         }
 
